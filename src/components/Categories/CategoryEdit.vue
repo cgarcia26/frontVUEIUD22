@@ -6,7 +6,7 @@
     <form>
         <div class="mb-3">
             <label for="name" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="name" v-model="category.name" readonly>
+            <input type="text" class="form-control" id="name" v-model="category.name">
         </div>
         <div class="mb-3">
             <label for="description" class="form-label">Descripción</label>
